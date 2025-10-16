@@ -1,6 +1,6 @@
 // server.js
 const express = require('express');
-const stripe = require('stripe')('STRIPE SECRET API KEY'); // Stripe secret key
+const stripe = require('stripe')('STRIPE API KEY'); 
 const cors = require('cors');
 
 const app = express();
